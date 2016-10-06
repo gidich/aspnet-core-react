@@ -4,7 +4,7 @@ import { provide } from 'redux-typed';
 import { ApplicationState }  from '../store';
 import * as CounterStore from '../store/Counter';
 
-class Counter extends React.Component<CounterProps, void> {
+export class Counter extends React.Component<any, void> {
     public render() {
         return <div>
             <h1>Counter</h1>
